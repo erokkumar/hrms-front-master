@@ -1,0 +1,18 @@
+<leaves>
+        <leave>
+            <type>
+            <name>Sick leave</name>
+            <days>6</days>
+            </type>
+            <type>
+            <name>Casual leave</name>
+            <days>6</days>
+            </type>
+            <type>
+            <name>Earned leave</name>
+            <days>6</days>
+            </type>
+          
+        
+        </leave>
+</leaves>

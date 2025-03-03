@@ -1,0 +1,12 @@
+<applied_leaves>
+    <leaves>
+        <id>1</id>
+        <name>James Rawat</name>
+        <leave_type>Sick Leave</leave_type>
+        <date>13/09/2015</date>
+        <end_date>13/09/2015</end_date>
+        <reason>unqualified</reason>
+        <status>Rejected</status>
+        <action>1</action>
+    </leaves>
+</applied_leaves>

@@ -1,0 +1,9 @@
+.sidelink:hover{
+    background: rgb(34, 86, 255);
+}
+.sidelink i{
+    color: rgb(0, 0, 0);
+}
+.sidelink:hover i{
+    color: rgb(255, 255, 255);
+}
