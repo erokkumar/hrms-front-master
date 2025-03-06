@@ -496,6 +496,29 @@ const generateemp_id = (callback) => {
     }
 });
 
+app.get("/api/attendance", (req, res) => {
+    const { emp_id } = req.query;
+
+    let sql;
+    let params = [];
+
+    if (emp_id) {
+        sql = "SELECT * FROM employee_attendance WHERE emp_id = ?";
+        params.push(emp_id);
+    } else {
+        sql = "SELECT * FROM employee_attendance";
+    }
+
+    db.query(sql, params, (err, results) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: "Database error" });
+        }
+        res.status(200).json(results);
+    });
+});
+
+
 
 
 // Start Server
